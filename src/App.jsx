@@ -1,6 +1,5 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import "./App.css";
-import React from "react";
 import Header from "./component/Header";
 
 function App() {
