@@ -24,7 +24,7 @@ function Header() {
   ];
 
   return (
-    <div className="flex items-center justify-between p-5">
+    <div className="flex items-center justify-between p-8">
       <div className="flex  gap-8 items-center">
         <img
           src={logo}
@@ -64,7 +64,7 @@ function Header() {
       <img
         src={profile}
         alt="User Profile"
-        className="w-[40px] rounded-full cursor-pointer"
+        className="w-[40px] rounded-full cursor-pointer right"
       />
     </div>
   );
