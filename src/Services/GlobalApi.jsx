@@ -12,7 +12,7 @@ const getTrendingVideos = () => axiosInstance.get("/trending/all/day");
 const getMovieByGenreId = (id) =>
   axiosInstance.get("/discover/movie", { params: { with_genres: id } });
 
-export default {
-  getTrendingVideos,
-  getMovieByGenreId,
-};
+// export default {
+//   getTrendingVideos,
+//   getMovieByGenreId,
+// };
