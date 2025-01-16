@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <Header />
-      <Slide />
+      {/* <Slide /> */}
       {/* <div>Hello Killua !!</div> */}
     </div>
   );
