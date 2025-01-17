@@ -4,4 +4,4 @@ function HrMoviesCard() {
   return <div>HrMoviesCard</div>;
 }
 
-export default HrMoviesCard;
+// export default HrMoviesCard;
