@@ -7,7 +7,7 @@ function HeaderItem({ name, Icon }) {
     text-[15px] font-semibold cursor-pointer hover:underline underline-offset-8 mb-2"
     >
       <Icon />
-      <h2 classNmae="">{name}</h2>
+      <h2>{name}</h2>
     </div>
   );
 }
