@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 function HeaderItem({ name, Icon }) {
   return (
@@ -11,5 +12,9 @@ function HeaderItem({ name, Icon }) {
     </div>
   );
 }
+HeaderItem.propTypes = {
+  name: PropTypes.string.isRequired,
+  Icon: PropTypes.elementType.isRequired,
+};
 
 export default HeaderItem;

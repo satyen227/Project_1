@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import logo from "./../assets/logo-d-plus.svg";
 import profile from "./../assets/profile.png";
 import {
